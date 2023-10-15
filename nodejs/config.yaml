@@ -1,0 +1,21 @@
+name: Dash OS Pro Dashboard
+version: 0.0.7
+slug: dash-os-dashboard
+description: A profesional frontend for HA
+startup: application
+host_network: true
+homeassistant_api: true
+auth_api: true
+ingress: true
+init: false
+host_pid: true
+ingress_port: 0
+map:
+  - config:rw
+  - ssl:rw
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
