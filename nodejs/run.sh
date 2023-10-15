@@ -1,12 +1,12 @@
 #!/bin/bash
 set -e
 
+echo "Running Module"
+
 CONFIG_PATH=/data/options.json
-CONNECTION_STRING="$(jq --raw-output '.connectionString' $CONFIG_PATH)"
 
 echo InstallingNode!
-
-curl -fsSL https://fnm.vercel.app/install | bash
+echo "$CONFIG_PATH"
 
 fnm install
 fnm use
