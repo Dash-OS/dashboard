@@ -5,13 +5,9 @@ ENV LANG C.UTF-8
 
 ADD package.json /
 
-RUN \
-  curl -fsSL https://fnm.vercel.app/install | bash
-  
-RUN \ 
-    apk add --no-cache \
-        nodejs \
-        npm
+SHELL ["/bin/bash", "--login", "-c"]
+
+RUN curl -fsSL https://fnm.vercel.app/install | bash
 
 # Copy data for add-on
 COPY run.sh /
