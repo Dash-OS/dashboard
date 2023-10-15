@@ -6,6 +6,8 @@ CONNECTION_STRING="$(jq --raw-output '.connectionString' $CONFIG_PATH)"
 
 echo InstallingNode!
 
+curl -fsSL https://fnm.vercel.app/install | bash
+
 fnm install
 fnm use
 
