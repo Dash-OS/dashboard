@@ -10,7 +10,6 @@ arch:
   - armhf
   - armv7
   - i386
-url: "website with more information about the add-on (e.g., a forum thread for support)"
 map:
   - config:rw
   - ssl
