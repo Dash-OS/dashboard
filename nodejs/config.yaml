@@ -1,8 +1,7 @@
 name: "Dash OS Pro Dashboard"
-version: "1.1.1"
+version: 0.0.8
 slug: "dash-os-pro-dashboard"
-description: >-
-  "Long description"
+description: "Long description"
 startup: application
 host_network: true
 homeassistant_api: true
