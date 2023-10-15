@@ -1,13 +1,14 @@
 name: "Dash OS Pro Dashboard"
 version: 0.0.8
-slug: "dash-os-pro-dashboard"
+slug: "dash_os_pro_dashboard"
 description: "Long description"
 startup: application
+init: false
 arch:
-  - armhf
-  - armv7
   - aarch64
   - amd64
+  - armhf
+  - armv7
   - i386
 url: "website with more information about the add-on (e.g., a forum thread for support)"
 map:
