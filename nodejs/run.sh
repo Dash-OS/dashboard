@@ -3,13 +3,14 @@ set -e
 
 echo "Running Module"
 
+
 CONFIG_PATH=/data/options.json
 
 echo InstallingNode!
 echo "$CONFIG_PATH"
+node --version
 
-fnm install
-fnm use
+which fnm || curl -fsSL https://fnm.vercel.app/install | bash
 
 echo "Node Versin"
 node --version

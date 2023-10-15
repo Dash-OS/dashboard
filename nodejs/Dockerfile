@@ -12,7 +12,7 @@ RUN \
      apk add --no-cache \
         curl \
         git=2.40.1-r0 \
-    && curl -fsSL https://fnm.vercel.app/install | bash
+        nodejs=20.8.0
 
 WORKDIR /data
 
