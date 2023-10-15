@@ -3,13 +3,6 @@ version: 0.0.8
 slug: "dash-os-pro-dashboard"
 description: "Long description"
 startup: application
-host_network: true
-homeassistant_api: true
-auth_api: true
-ingress: true
-init: false
-host_pid: true
-ingress_port: 0
 arch:
   - armhf
   - armv7
